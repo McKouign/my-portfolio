@@ -97,6 +97,14 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   opacity: 0.75;
 }
 
+nav.navbar a.navbar-brand {
+  width: 9%;
+}
+
+#photo {
+  border-radius: 50%;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
