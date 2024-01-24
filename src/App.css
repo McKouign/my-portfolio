@@ -340,20 +340,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 
+.skill-slider .item {
+  display: inline-block;
+}
+
 .skill-slider .item .tagline {
-  text-align: center;
-  margin-top: 20px; /* Ajustez cette valeur pour l'espacement du haut */
-  margin-bottom: 20px; /* Ajustez cette valeur pour l'espacement du bas */
-  font-size: 20px; /* Ajustez la taille de la police si nécessaire */
-  font-weight: bold; /* Optionnel : pour rendre le texte plus visible */
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .skill-slider .item ul {
-  padding: 0; /* Enlève le padding par défaut des listes */
-  text-align: left; /* Alignement du texte des listes */
-  display: inline-block; /* Permet au texte de ne prendre que l'espace nécessaire */
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
+  text-align: left;
   list-style: none;
   text-align: center;
 }
