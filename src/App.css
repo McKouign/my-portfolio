@@ -246,7 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.banner .tagline {
+.tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
@@ -339,9 +339,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
+
+.skill-slider .item .tagline {
+  text-align: center;
+  margin-top: 20px; /* Ajustez cette valeur pour l'espacement du haut */
+  margin-bottom: 20px; /* Ajustez cette valeur pour l'espacement du bas */
+  font-size: 20px; /* Ajustez la taille de la police si nécessaire */
+  font-weight: bold; /* Optionnel : pour rendre le texte plus visible */
+}
+
+.skill-slider .item ul {
+  padding: 0; /* Enlève le padding par défaut des listes */
+  text-align: left; /* Alignement du texte des listes */
+  display: inline-block; /* Permet au texte de ne prendre que l'espace nécessaire */
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  text-align: center;
+}
+
+.skill-slider .item .tagline,
+.skill-slider .item ul {
+  display: block;
+}
+
+.skill-slider .item li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.8px;
 }
 .background-image-left {
   top: 28%;

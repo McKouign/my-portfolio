@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { NavBar } from "./Components/Navbar";
 import { Banner } from "./Components/Banner";
+import { Skills } from "./Components/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <Skills />
     </div>
   );
 }
