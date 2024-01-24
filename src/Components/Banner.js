@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["un gars motivé", "développeur Web."];
+  const toRotate = ["un gars sympa", "développeur Web."];
   const period = 2000;
 
   useEffect(() => {
@@ -73,7 +73,7 @@ export const Banner = () => {
                       className="txt-rotate"
                       const
                       dataPeriod="1000"
-                      data-rotate='[ "un gars motivé", "développeur Web." ]'
+                      data-rotate='[ "un gars sympa", "développeur Web." ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -83,10 +83,13 @@ export const Banner = () => {
                     passionne pour le sport, la culture, les voyages, les échecs
                     et les cacahuètes. Enthouiaste et volontaire, je me lance
                     dans tout ce que j'entreprends avec passion, et apprends
-                    sans cesse pour parfaire et développer mes compétences.
+                    sans cesse pour parfaire et développer mes compétences. Je
+                    serais ravi de pouvoir échanger avec vous sur la façon avec
+                    laquelle je peux contribuer à vos succès. Merci pour votre
+                    visite !
                   </p>
                   <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Contact <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
