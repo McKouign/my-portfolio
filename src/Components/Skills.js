@@ -40,39 +40,47 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <span className="tagline">Développement Back-end</span>
-                  <ul>
-                    <li>Ruby on Rails</li>
-                    <li>Node.js</li>
-                    <li>SQL, PostgreSQL & Active Record</li>
-                    <li>Background tasks & jobs</li>
-                  </ul>
+                  <div className="title-list-container">
+                    <h5>Développement Back-end</h5>
+                    <ul>
+                      <li>Ruby on Rails</li>
+                      <li>Node.js</li>
+                      <li>SQL & Active Record</li>
+                      <li>PostgreSQL & SQLite</li>
+                      <li>Background tasks & jobs</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="item">
-                  <span className="tagline">Développement Front-end</span>
-                  <ul>
-                    <li>HTML & CSS</li>
-                    <li>JavaScript, React & Stimulus</li>
-                    <li>Bootstrap</li>
-                  </ul>
+                  <div className="title-list-container">
+                    <h5>Développement Front-end</h5>
+                    <ul>
+                      <li>HTML & CSS</li>
+                      <li>JavaScript, Reac & Stimulus</li>
+                      <li>Bootstrap & librairies</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="item">
-                  <span className="tagline">Autres compétences</span>
-                  <ul>
-                    <li>Figma</li>
-                    <li>Github</li>
-                    <li>Heroku</li>
-                    <li>Figma</li>
-                  </ul>
+                  <div className="title-list-container">
+                    <h5>Autres compétences</h5>
+                    <ul>
+                      <li>Figma</li>
+                      <li>Github</li>
+                      <li>Heroku</li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="item">
-                  <span className="tagline">Soft Skills</span>
-                  <ul>
-                    <li>Autonomie</li>
-                    <li>Adaptabilité</li>
-                    <li>Travail en équipe</li>
-                    <li>Goût pour l'apprentissage</li>
-                  </ul>
+                  <div className="title-list-container">
+                    <h5>Soft skills</h5>
+                    <ul>
+                      <li>Autonomie</li>
+                      <li>Adaptabilité</li>
+                      <li>Travail en équipe</li>
+                      <li>Goût pour l'apprentissage</li>
+                    </ul>
+                  </div>
                 </div>
               </Carousel>
             </div>
