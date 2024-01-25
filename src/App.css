@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 130px;
 }
 
 body {
@@ -318,7 +318,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 200px 0 50px 0;
   position: relative;
 }
 .skill-bx {
@@ -399,7 +399,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .background-image-left {
-  height: 500px;
+  height: 200px;
   width: auto; /* Ajuste automatiquement la largeur pour maintenir les proportions */
   object-fit: contain; /* Garde les proportions de l'image */
 }
@@ -407,7 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************************ Projects CSS ***********************/
 
 .project {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   background-color: black;
 }
@@ -487,4 +487,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+/***************** Contact CSS **********************/
+
+.contact-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contact-image,
+.contact-info {
+  flex: 1;
+  max-width: 50%;
+}
+
+.contact-image img {
+  width: 100%;
+  max-width: 400px;
 }

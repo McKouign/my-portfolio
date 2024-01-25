@@ -53,6 +53,10 @@ export const Banner = () => {
     }
   };
 
+  const navigateToContact = () => {
+    window.location.href = "#connect";
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -71,24 +75,22 @@ export const Banner = () => {
                     <br></br>{" "}
                     <span
                       className="txt-rotate"
-                      const
-                      dataPeriod="1000"
                       data-rotate='[ "un gars sympa", "développeur Web." ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Développeur Full-Stack formé au Wagon de Bordeaux, je me
+                    Développeur Web Full-Stack formé au Wagon de Bordeaux, je me
                     passionne pour le sport, la culture, les voyages, les échecs
-                    et les cacahuètes. Enthouiaste et volontaire, je me lance
-                    dans tout ce que j'entreprends avec passion, et apprends
-                    sans cesse pour parfaire et développer mes compétences. Je
-                    serais ravi de pouvoir échanger avec vous sur la façon avec
-                    laquelle je peux contribuer à vos succès. Merci pour votre
-                    visite !
+                    et les cacahuètes (oui oui...). Enthouiaste et volontaire,
+                    je me lance dans tout ce que j'entreprends avec passion.
+                    Autodidate dans l'âme, j'apprends sans cesse pour parfaire
+                    et développer mes compétences. Je serais ravi que nous
+                    puissions échanger sur la façon avec laquelle je pourrais
+                    contribuer à vos succès. Merci pour votre visite !
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={navigateToContact}>
                     Contact <ArrowRightCircle size={25} />
                   </button>
                 </div>
