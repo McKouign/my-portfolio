@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.a8363753.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.b76ea231.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.b76ea231.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.92157baa.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.92157baa.js.map",
+    "static/css/2.5f0330fc.chunk.css": "/my-portfolio/static/css/2.5f0330fc.chunk.css",
+    "static/js/2.1eb22591.chunk.js": "/my-portfolio/static/js/2.1eb22591.chunk.js",
+    "static/js/2.1eb22591.chunk.js.map": "/my-portfolio/static/js/2.1eb22591.chunk.js.map",
+    "static/js/3.0aa9c7f2.chunk.js": "/my-portfolio/static/js/3.0aa9c7f2.chunk.js",
+    "static/js/3.0aa9c7f2.chunk.js.map": "/my-portfolio/static/js/3.0aa9c7f2.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.80db54765721685e8bf6b54a716344b3.js": "/my-portfolio/precache-manifest.80db54765721685e8bf6b54a716344b3.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/2.5f0330fc.chunk.css.map": "/my-portfolio/static/css/2.5f0330fc.chunk.css.map",
+    "static/css/main.a8363753.chunk.css.map": "/my-portfolio/static/css/main.a8363753.chunk.css.map",
+    "static/js/2.1eb22591.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.1eb22591.chunk.js.LICENSE.txt",
+    "static/media/Profile-pic.jpg": "/my-portfolio/static/media/Profile-pic.baa70c44.jpg",
+    "static/media/bf-pic.jpeg": "/my-portfolio/static/media/bf-pic.fa455fef.jpeg",
+    "static/media/color-sharp.png": "/my-portfolio/static/media/color-sharp.d6409477.png",
+    "static/media/color-sharp2.png": "/my-portfolio/static/media/color-sharp2.42c4dbf6.png",
+    "static/media/contact-img.svg": "/my-portfolio/static/media/contact-img.a8822e20.svg",
+    "static/media/github.png": "/my-portfolio/static/media/github.48380c60.png",
+    "static/media/header-img.svg": "/my-portfolio/static/media/header-img.bfe6d1a6.svg",
+    "static/media/instagram.png": "/my-portfolio/static/media/instagram.5fe164df.png",
+    "static/media/linkedin.png": "/my-portfolio/static/media/linkedin.bcf463ab.png",
+    "static/media/pdc-pic.jpeg": "/my-portfolio/static/media/pdc-pic.72c5d146.jpeg",
+    "static/media/styles.css": "/my-portfolio/static/media/revicons.2feb69cc.eot",
+    "static/media/togotosleep.jpg": "/my-portfolio/static/media/togotosleep.18ce6348.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92157baa.js",
+    "static/css/2.5f0330fc.chunk.css",
+    "static/js/2.1eb22591.chunk.js",
+    "static/css/main.a8363753.chunk.css",
+    "static/js/main.b76ea231.chunk.js"
+  ]
+}
