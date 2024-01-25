@@ -15,17 +15,20 @@ export const Projects = () => {
       description:
         "Plateforme de réservation de chambres d'hotel à prix réduits",
       imgUrl: Togotosleep,
+      linkUrl: "https://github.com/McKouign/ToGoToSleep",
     },
     {
       title: "Betfriends",
       description: "Web app de paris sportifs entre amis",
       imgUrl: Betfriends,
+      linkUrl: "https://github.com/McKouign/BetFriends",
     },
     {
       title: "Peurdeconduire.fr",
       description:
         "Service de coaching pour personnes phobiques de la conduite automobile",
       imgUrl: Peurdeconduire,
+      linkUrl: "https://peurdeconduire.fr",
     },
   ];
 
