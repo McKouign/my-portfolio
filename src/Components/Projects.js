@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "../Components/ProjectCard";
 import Betfriends from "../Assets/images/bf-pic.jpeg";
 import Togotosleep from "../Assets/images/togotosleep.jpg";
@@ -11,15 +11,15 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Betfriends",
-      description: "Web app de paris sportifs entre amis",
-      imgUrl: Betfriends,
-    },
-    {
       title: "ToGoToSleep",
       description:
         "Plateforme de réservation de chambres d'hotel à prix réduits",
       imgUrl: Togotosleep,
+    },
+    {
+      title: "Betfriends",
+      description: "Web app de paris sportifs entre amis",
+      imgUrl: Betfriends,
     },
     {
       title: "Peurdeconduire.fr",
@@ -46,24 +46,19 @@ export const Projects = () => {
                     Mon parcours dans le monde du développement web, bien que
                     récent, est déjà marqué par des projets significatifs et
                     variés, chacun reflétant une étape clé de mon apprentissage
-                    et de ma croissance professionnelle. Mon premier projet
-                    majeur, est une application web de paris sportif entre amis.
-                    Ce projet, à la fois stimulant et ludique, m'a plongé dans
+                    et de ma croissance professionnelle. Le premier de la liste
+                    fût réalisé en deux jours après ma formation et me permit de
+                    réinvestir mes connaissances acquises en back-end. Le
+                    deuxième, à la fois stimulant et ludique, m'a plongé dans
                     les défis captivants du travail collaboratif et du
-                    développement interactif. Le deuxième projet, entrepris
-                    après ma formation, représente une évolution dans mes
-                    compétences et ma confiance en tant que développeur. C'était
-                    une expérience enrichissante qui m'a permis de consolider
-                    mes compétences acquises et d'explorer de nouvelles avenues
-                    en développement web. Le dernier, quant à lui, fut réalisé
-                    sur WordPress il yb a 3 ans. Il s'agit du site de mon
-                    ancienne activité professionnelle et c'est en le
-                    construisant que j'ai découvert mon amour pour la création
-                    de solutions web, un domaine où chaque ligne de code est une
-                    opportunité pour innover et faire la différence. Chacun de
-                    ces projets est un témoignage de mon évolution, de mon
-                    engagement et de mon enthousiasme pour les défis techniques
-                    et créatifs du développement web.
+                    développement interactif. Et le dernier, qui est le site de
+                    mon ancienne activité professionnnelle, fut réalisé sur
+                    WordPress il y a 3 ans. C'est en le construisant que j'ai
+                    découvert une passion pour la création de solutions web, un
+                    domaine où chaque ligne de code est une opportunité pour
+                    innover et faire la différence. Chacun de ces projets est un
+                    témoignage de mon évolution et de mon enthousiasme pour les
+                    défis techniques et créatifs du développement Web.
                   </p>
 
                   <Row>
