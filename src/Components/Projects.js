@@ -54,10 +54,10 @@ export const Projects = () => {
                     réinvestir mes connaissances acquises en back-end. Le
                     deuxième, à la fois stimulant et ludique, m'a plongé dans
                     les défis captivants du travail collaboratif et du
-                    développement interactif. Et le dernier, qui est le site de
-                    mon ancienne activité professionnnelle, fut réalisé sur
+                    développement interactif. Et le dernier, le site de mon
+                    ancienne activité professionnnelle, fut réalisé sur
                     WordPress il y a 3 ans. C'est en le construisant que j'ai
-                    découvert une passion pour la création de solutions web, un
+                    découvert une passion pour la création de solutions Web, un
                     domaine où chaque ligne de code est une opportunité pour
                     innover et faire la différence. Chacun de ces projets est un
                     témoignage de mon évolution et de mon enthousiasme pour les
