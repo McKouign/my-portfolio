@@ -59,9 +59,7 @@ export const Projects = () => {
                     WordPress il y a 3 ans. C'est en le construisant que j'ai
                     découvert une passion pour la création de solutions Web, un
                     domaine où chaque ligne de code est une opportunité pour
-                    innover et faire la différence. Chacun de ces projets est un
-                    témoignage de mon évolution et de mon enthousiasme pour les
-                    défis techniques et créatifs du développement Web.
+                    innover et faire la différence.
                   </p>
 
                   <Row>

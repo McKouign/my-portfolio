@@ -1,6 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
-import LoadingImage from "../Assets/images/loading.png";
+import { Container, Row, Col } from "react-bootstrap";
 import ColorSharp1 from "../Assets/images/color-sharp.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -45,17 +44,8 @@ export const Skills = () => {
                     <ul>
                       <li>Ruby on Rails</li>
                       <li>Node.js</li>
+                      <li>MVC</li>
                       <li>Background tasks & jobs</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="title-list-container">
-                    <h5>Développement Front-end</h5>
-                    <ul>
-                      <li>HTML & CSS</li>
-                      <li>JavaScript, React & Stimulus</li>
-                      <li>Bootstrap & librairies</li>
                     </ul>
                   </div>
                 </div>
@@ -66,6 +56,16 @@ export const Skills = () => {
                       <li>APIs</li>
                       <li>SQL & Active Record</li>
                       <li>PostgreSQL & SQLite</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="title-list-container">
+                    <h5>Développement Front-end</h5>
+                    <ul>
+                      <li>HTML & CSS</li>
+                      <li>JavaScript, React & Stimulus</li>
+                      <li>Bootstrap & librairies</li>
                     </ul>
                   </div>
                 </div>
