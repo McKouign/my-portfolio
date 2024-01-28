@@ -12,7 +12,7 @@ export const Contact = () => {
             <img src={ContactImg} alt="Contact me" />
           </div>
           <div className="contact-info">
-            <h2>Contactez-moi</h2>
+            <h2>Mes coordonées</h2>
             <p>
               <strong>Email :</strong> romain.le.neindre@gmail.com
             </p>
