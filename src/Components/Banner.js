@@ -83,12 +83,12 @@ export const Banner = () => {
                   <p>
                     Développeur Web Full-Stack formé au Wagon de Bordeaux, je me
                     passionne pour le sport, la culture, les voyages, les échecs
-                    et les cacahuètes (oui oui...). Enthouiaste et volontaire,
-                    je me lance dans tout ce que j'entreprends avec passion.
-                    Autodidate dans l'âme, j'apprends sans cesse pour parfaire
-                    et développer mes compétences. Je serais ravi que nous
-                    puissions échanger sur la façon avec laquelle je pourrais
-                    contribuer à vos succès. Merci pour votre visite !
+                    et les cacahuètes. Enthouiaste et volontaire, je me lance
+                    dans tout ce que j'entreprends avec passion. Autodidate dans
+                    l'âme, j'apprends sans cesse pour parfaire et développer mes
+                    compétences. Je serais ravi que nous puissions échanger sur
+                    la façon avec laquelle je pourrais contribuer à vos succès.
+                    Merci pour votre visite !
                   </p>
                   <button onClick={navigateToContact}>
                     Contact <ArrowRightCircle size={25} />
