@@ -12,12 +12,12 @@ export const Contact = () => {
             <img src={ContactImg} alt="Contact me" />
           </div>
           <div className="contact-info">
-            <h2>Mes coordonées</h2>
+            <h2>Mes coordonnées</h2>
             <p>
               <strong>Email :</strong> romain.le.neindre@gmail.com
             </p>
             <p>
-              <strong>Téléphone :</strong> +33 6 10 42 56 27
+              <strong>Téléphone :</strong> 06 10 42 56 27
             </p>
           </div>
         </div>
