@@ -43,9 +43,8 @@ export const Skills = () => {
                     <h5>Développement Back-end</h5>
                     <ul>
                       <li>Ruby on Rails</li>
-                      <li>Node.js</li>
-                      <li>MVC</li>
                       <li>Background tasks & jobs</li>
+                      <li>MVC</li>
                     </ul>
                   </div>
                 </div>
