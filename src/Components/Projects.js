@@ -49,17 +49,7 @@ export const Projects = () => {
                     Mon parcours dans le monde du développement web, bien que
                     récent, est déjà marqué par des projets significatifs et
                     variés, chacun reflétant une étape clé de mon apprentissage
-                    et de ma croissance professionnelle. Le premier de la liste
-                    fût réalisé en deux jours après ma formation et me permit de
-                    réinvestir mes connaissances acquises en back-end. Le
-                    deuxième, à la fois stimulant et ludique, m'a plongé dans
-                    les défis captivants du travail collaboratif et du
-                    développement interactif. Et le dernier, le site de mon
-                    ancienne activité professionnnelle, fut réalisé sur
-                    WordPress il y a 3 ans. C'est en le construisant que j'ai
-                    découvert une passion pour la création de solutions Web, un
-                    domaine où chaque ligne de code est une opportunité pour
-                    innover et faire la différence.
+                    et de ma croissance professionnelle. 
                   </p>
 
                   <Row>
