@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["un gars sympa", "développeur Web."];
+  const toRotate = ["Full-Stack developer", "a nice guy."];
   const period = 2000;
 
   useEffect(() => {
@@ -69,26 +69,19 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Bienvenue</span>
+                  <span className="tagline">Welcome</span>
                   <h1>
-                    {`Je suis Romain, `}
+                    {`I'm Romain, `}
                     <br></br>{" "}
                     <span
                       className="txt-rotate"
-                      data-rotate='[ "un gars sympa", "développeur Web." ]'
+                      data-rotate='[ "Full-Stack developer", "a nice guy." ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Développeur Web Full-Stack formé au Wagon de Bordeaux, je me
-                    passionne pour le sport, la culture, les voyages, les échecs
-                    et les cacahuètes. Enthousiaste et volontaire, je me lance
-                    dans tout ce que j'entreprends avec passion. Autodidacte
-                    dans l'âme, j'apprends sans cesse pour parfaire et
-                    développer mes compétences. Je serais ravi que nous
-                    puissions échanger sur la façon avec laquelle je pourrais
-                    contribuer à vos succès. Merci pour votre visite !
+                    Full-Stack Web Developer trained at Le Wagon school (Bordeaux). I am passionate about sport, culture, travel, chess and peanuts. Enthusiastic and determined, I throw myself into everything I do with passion. Self-taught at heart, I am constantly learning to perfect and develop my skills. I would be delighted if we could discuss how I could contribute to your success. Thanks for your visit !
                   </p>
                   <button onClick={navigateToContact}>
                     Contact <ArrowRightCircle size={25} />

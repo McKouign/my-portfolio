@@ -11,22 +11,22 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "ToGoToSleep",
-      description:
-        "Plateforme de réservation de chambres d'hotel à prix réduits",
-      imgUrl: Togotosleep,
-      linkUrl: "https://github.com/McKouign/ToGoToSleep",
-    },
-    {
       title: "Betfriends",
-      description: "Web app de paris sportifs entre amis",
+      description: "Sports betting web app with friends",
       imgUrl: Betfriends,
       linkUrl: "https://github.com/McKouign/BetFriends",
     },
     {
+      title: "ToGoToSleep",
+      description:
+        "Discounted hotel room reservation platform",
+      imgUrl: Togotosleep,
+      linkUrl: "https://github.com/McKouign/ToGoToSleep",
+    },
+    {
       title: "Peurdeconduire.fr",
       description:
-        "Service de coaching pour personnes phobiques de la conduite automobile",
+        "Coaching service for people with driving phobias, my old job.",
       imgUrl: Peurdeconduire,
       linkUrl: "https://peurdeconduire.fr",
     },
@@ -44,12 +44,9 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projets</h2>
+                  <h2>Projects</h2>
                   <p>
-                    Mon parcours dans le monde du développement web, bien que
-                    récent, est déjà marqué par des projets significatifs et
-                    variés, chacun reflétant une étape clé de mon apprentissage
-                    et de ma croissance professionnelle. 
+                    My journey in the world of web development, although recent, is already marked by significant and varied projects, each reflecting a key stage in my learning and professional growth. 
                   </p>
 
                   <Row>

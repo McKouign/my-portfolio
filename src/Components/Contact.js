@@ -27,12 +27,12 @@ export const Contact = () => {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-            <h2>Mes coordonnées</h2>
+            <h2>My contact details</h2>
             <p>
               <strong>Email :</strong> romain.le.neindre@gmail.com
             </p>
             <p>
-              <strong>Tel :</strong> 06 10 42 56 27
+              <strong>Tel :</strong> +33 6 10 42 56 27
             </p>
           </div>
         </div>

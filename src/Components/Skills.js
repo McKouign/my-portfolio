@@ -31,7 +31,7 @@ export const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>"L'excellence n'est pas une compétence, mais une attitude."</p>
+              <p>"Excellence is not a skill but an attitude."</p>
               <br></br>
               <Carousel
                 responsive={responsive}
@@ -40,27 +40,19 @@ export const Skills = () => {
               >
                 <div className="item">
                   <div className="title-list-container">
-                    <h5>Développement Back-end</h5>
+                    <h5>Back-End development</h5>
                     <ul>
                       <li>Ruby on Rails</li>
-                      <li>Background tasks & jobs</li>
+                      <li>Node.js</li>
+                      <li>Next.js</li>
+                      <li>background tasks & jobs</li>
                       <li>MVC</li>
                     </ul>
                   </div>
                 </div>
                 <div className="item">
                   <div className="title-list-container">
-                    <h5>Bases de données</h5>
-                    <ul>
-                      <li>APIs</li>
-                      <li>SQL & Active Record</li>
-                      <li>PostgreSQL & SQLite</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="title-list-container">
-                    <h5>Développement Front-end</h5>
+                    <h5>Front-End develoment</h5>
                     <ul>
                       <li>HTML & CSS</li>
                       <li>JavaScript, React & Stimulus</li>
@@ -70,10 +62,20 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <div className="title-list-container">
-                    <h5>Autres compétences</h5>
+                    <h5>DataBase</h5>
+                      <li>APIs</li>
+                      <li>SQL & Active Record</li>
+                      <li>PostgreSQL & SQLite</li>
                     <ul>
+                    </ul>
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="title-list-container">
+                    <h5>Other hard skills</h5>
+                    <ul>
+                      <li>Version control/Git</li>
                       <li>Figma</li>
-                      <li>Github</li>
                       <li>Heroku</li>
                     </ul>
                   </div>
@@ -82,10 +84,10 @@ export const Skills = () => {
                   <div className="title-list-container">
                     <h5>Soft skills</h5>
                     <ul>
-                      <li>Autonomie</li>
-                      <li>Adaptabilité</li>
-                      <li>Travail en équipe</li>
-                      <li>Goût pour l'apprentissage</li>
+                      <li>Autonomy</li>
+                      <li>Adaptability</li>
+                      <li>Team Work</li>
+                      <li>Taste for learning</li>
                     </ul>
                   </div>
                 </div>
