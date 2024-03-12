@@ -42,9 +42,8 @@ export const Skills = () => {
                   <div className="title-list-container">
                     <h5>Back-End development</h5>
                     <ul>
-                      <li>Ruby on Rails</li>
+                      <li>Ruby on Rails 7</li>
                       <li>Node.js</li>
-                      <li>Next.js</li>
                       <li>background tasks & jobs</li>
                       <li>MVC</li>
                     </ul>
@@ -56,6 +55,7 @@ export const Skills = () => {
                     <ul>
                       <li>HTML & CSS</li>
                       <li>JavaScript, React & Stimulus</li>
+                      <li>Hotwire & Turbo</li>
                       <li>Bootstrap & librairies</li>
                     </ul>
                   </div>
